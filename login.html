@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/084bdb0b83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="formulario">
+        <h1>Iniciar Sesion</h1>
+        <div class="contenedor">            
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" id="txtCorreo">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" id="txtContraseña">
+            </div>
+            <!-- <input type="submit" value="Iniciar" class="button" id="btnIniciar"> -->
+            <input type="button" class="button" value="Ingresar" id="btnIniciar">
+            <p>Al registrarte, aceptas nuestras condiciones de uso y politica de privacidad</p>
+            <p>¿No tienes una cuenta?<a class="link" href="registro.html">Registrate</a></p>
+        </div>
+    </form>
+    <script src="js/logicaUsuarios.js"></script>
+    <script src="js/logicaInicio.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+</html>
